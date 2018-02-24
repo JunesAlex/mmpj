@@ -1,0 +1,115 @@
+
+body	{
+	font-family: 'Roborto', sans-serif;
+	width:90%;
+	background-image: url('../images/juju1.jpg');
+    background-size: cover;
+    background-position: center center;
+    position:relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    z-index: -10;
+	max-width:7000px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+ img {
+     width:100%;
+} 
+img.displayed {
+	display:flex
+	margin-left:auto;
+	margin-right:auto;
+}
+
+h1 {color: black; 
+	text-align: center; 
+	font-family: 'courgette', 
+
+}
+
+h2,h3,ul {
+	color:#000080; 
+	text-align: center;
+	font-family: 'roborto', sans-serif;
+}
+
+a:link	{
+	color: #000080;
+}	
+a:visited {
+	color: #000080;
+}
+a:hover {
+	color: #C0C0C0;
+}	
+a:active {
+	color: #ff6600;
+}
+nav ul {
+	text-align: center; 
+	margin: 10px;
+	background-color: #FF7F50;
+    padding: 0;
+}
+
+nav li {
+	color: #000080;
+	display: inline-block;
+	text-align: center;
+	font-size: 1.2em;
+	line-height: 40px;
+/*	border-bottom: solid 1px #000;
+	border-top: solid 1px #000;*/
+	border-left: solid 2px #000;
+
+}
+
+nav a {
+	text-decoration: none;
+	color: #00ced1;
+	display: block;
+	padding-right: 10px;
+	padding-left:1em;
+	padding-right:1em;
+
+
+}
+nav a:hover {
+	background-color: #000080;
+}
+nav a.active {
+	background-color: #000080;
+	color: #444
+}
+.test{
+	border-left: 0;
+}
+footer	{
+	font-size: small;
+	text-align: center; 
+	margin:20px;
+	border: top, bottom: 5px;
+	padding: 20px;
+	border-color: black;
+	background-color: #C0C0C0;
+    padding: 0;
+
+} 
+
+
+@media  (max-width: 420px){
+	nav li{
+		display:block;
+		border-left:none;
+	}
+    nav a {
+       font-size: .5em;
+    }
+    body{
+    	font-size: .8em;
+    }
+}
